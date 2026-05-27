@@ -1,0 +1,202 @@
+import { StyleSheet } from "react-native";
+
+const loanScreenStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#F5F6FA",
+  },
+  scrollView: {
+    flex: 1,
+  },
+  scrollContent: {
+    paddingBottom: 32,
+    paddingHorizontal: 16,
+  },
+  header: {
+    padding: 28,
+    borderRadius: 24,
+    alignItems: "center",
+    marginBottom: 20,
+  },
+  iconCircle: {
+    width: 84,
+    height: 84,
+    borderRadius: 42,
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 16,
+  },
+  headerTitle: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#2C3E50",
+    marginBottom: 6,
+    textAlign: "center",
+  },
+  headerDescription: {
+    fontSize: 15,
+    color: "#5C6B73",
+    textAlign: "center",
+  },
+  headerSubtext: {
+    fontSize: 13,
+    color: "#7F8C8D",
+    marginTop: 8,
+    textAlign: "center",
+  },
+  sectionCard: {
+    backgroundColor: "white",
+    borderRadius: 20,
+    padding: 24,
+    marginBottom: 20,
+    elevation: 3,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+  },
+  sectionHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 16,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "700",
+    color: "#2C3E50",
+    marginLeft: 10,
+  },
+  quickInfoGrid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
+  },
+  quickInfoPill: {
+    width: "48%",
+    backgroundColor: "#F7F8FB",
+    borderRadius: 14,
+    padding: 14,
+    marginBottom: 12,
+  },
+  quickInfoLabel: {
+    fontSize: 12,
+    color: "#7F8C8D",
+  },
+  quickInfoValue: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#2C3E50",
+    marginTop: 4,
+  },
+  highlightCard: {
+    borderRadius: 18,
+    padding: 20,
+    marginBottom: 32,
+  },
+  highlightTitle: {
+    fontSize: 16,
+    fontWeight: "700",
+    color: "#2C3E50",
+    marginBottom: 12,
+  },
+  highlightItem: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    marginBottom: 10,
+  },
+  highlightDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginTop: 7,
+    marginRight: 12,
+  },
+  highlightText: {
+    flex: 1,
+    fontSize: 14,
+    color: "#34495E",
+    lineHeight: 20,
+  },
+  formActions: {
+    marginTop: 18,
+  },
+  submitButton: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 18,
+    borderRadius: 16,
+    elevation: 3,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+  },
+  buttonDisabled: {
+    backgroundColor: "#BFC5D2",
+  },
+  submitButtonText: {
+    color: "#FFFFFF",
+    fontSize: 17,
+    fontWeight: "700",
+    marginRight: 10,
+  },
+  formField: {
+    marginBottom: 20,
+  },
+  fieldLabel: {
+    fontSize: 15,
+    fontWeight: "600",
+    color: "#2C3E50",
+    marginBottom: 10,
+  },
+  textInput: {
+    borderWidth: 2,
+    borderColor: "#E8E8E8",
+    borderRadius: 14,
+    backgroundColor: "#F8F9FA",
+    paddingHorizontal: 16,
+    height: 56,
+    fontSize: 16,
+    color: "#2C3E50",
+  },
+  inputWrapper: {
+    flexDirection: "row",
+    alignItems: "center",
+    borderWidth: 2,
+    borderColor: "#E8E8E8",
+    borderRadius: 14,
+    backgroundColor: "#F8F9FA",
+    paddingHorizontal: 16,
+    height: 56,
+  },
+  currencySymbol: {
+    fontSize: 20,
+    fontWeight: "bold",
+    marginRight: 10,
+  },
+  input: {
+    flex: 1,
+    fontSize: 18,
+    fontWeight: "600",
+    color: "#2C3E50",
+  },
+  pickerWrapper: {
+    borderWidth: 2,
+    borderColor: "#E8E8E8",
+    borderRadius: 14,
+    backgroundColor: "#F8F9FA",
+    overflow: "hidden",
+  },
+  picker: {
+    height: 56,
+  },
+  fallbackText: {
+    marginTop: 80,
+    textAlign: "center",
+    color: "#7F8C8D",
+    fontSize: 16,
+  },
+});
+
+export default loanScreenStyles;

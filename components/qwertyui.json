@@ -1,0 +1,159 @@
+{
+    "additionalInfo": {},
+    "amountOptions": "BASE_BILL_AMOUNT,,,",
+    "billerCategory": "Fastag",
+    "billerCoverage": "IND",
+    "billerDescription": null,
+    "billerId": "AUBA00000NATOF",
+    "billerImage": null,
+    "billerName": "AU Bank Fastag",
+    "billerTimeout": 120,
+    "createdAt": "2025-11-26T11:46:22.619762",
+    "doesSupportBillFetch": true,
+    "doesSupportBillValidation": false,
+    "doesSupportUserInput": true,
+    "inputParams": [
+        {
+            "dataType": "ALPHANUMERIC",
+            "isOptional": false,
+            "maxLength": 20,
+            "minLength": 4,
+            "paramName": "Vehicle Registration Number or Wallet ID",
+            "regEx": "^[0-9A-Za-z]{4,20}$",
+            "visibility": true
+        }
+    ],
+    "isBillFetchMandatory": true,
+    "isBillValidationMandatory": false,
+    "isPlanFetchMandatory": false,
+    "paymentChannels": [
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "INT"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "INTB"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "MOB"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "MOBB"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "POS"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "MPOS"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "ATM"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "BNKBRNCH"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "KIOSK"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "AGT"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentChannelName": "BSC"
+        }
+    ],
+    "paymentExactness": "Exact and above",
+    "paymentModes": [
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Internet Banking"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Debit Card"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Credit Card"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Prepaid Card"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "IMPS"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Cash"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "UPI"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Wallet"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "NEFT"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "AEPS"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Account Transfer"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "Bharat QR"
+        },
+        {
+            "maxAmount": 10000,
+            "minAmount": 100,
+            "paymentMode": "USSD"
+        }
+    ],
+    "shouldNaviagteToManualInput": false,
+    "supportsDeemedPayment": true,
+    "supportsPendingStatus": true,
+    "supportsPlanFetch": false,
+    "updatedAt": "2025-11-26T11:46:22.619797"
+}
